@@ -39,7 +39,7 @@
   },
   "engine-strict": true,
   "engines": {
-    "node": ">=18.17 <21"
+    "node": ">=18.17"
   },
   "lint-staged": {
     "*.js": [
@@ -54,11 +54,11 @@
   },
   "main": "src/index.js",
   "scripts": {
-    "docs": "./utils/scripts/docs",
-    "lint": "./utils/scripts/lint",
-    "lint:all": "./utils/scripts/lint-all",
-    "test": "./utils/scripts/test",
-    "todo": "./utils/scripts/todo",
-    "prepare": "./utils/scripts/prepare"
+    "docs": "/utils/scripts/docs",
+    "lint": "/utils/scripts/lint",
+    "lint:all": "/utils/scripts/lint-all",
+    "test": "/utils/scripts/test",
+    "todo": "/utils/scripts/todo",
+    "prepare": "/utils/scripts/prepare"
   }
 }
